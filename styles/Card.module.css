@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    width: 80%;
+    height: 47.5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0.75rem;
+    text-decoration: none;
+}
+
+.name{
+    display: flex;
+    flex: 8.5;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1.5;
+    background-color: rgb(255,255,255,0.25);
+    height: inherit;
+}
+
+.arrowImage{
+    height: 20px;
+    width: 15px;
+}
+
+@media only screen and (max-width:1400px){
+    .arrowImage{
+        height: 18px;
+        width: 13px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .name{
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .name{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .arrowImage{
+        height: 15px;
+        width: 10px;
+    }
+}
