@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Logo from '../public/logo.png'
 import Card from '../components/Card'
 import { data, promoData } from '../components/data'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -32,7 +33,11 @@ export default function Home() {
                 <div className={styles.promolinks}>
                   {promoData.map(item => {
                     return(
-                      <img className={styles.promoIcon} src={item.logo} key={item.key}></img>
+                      <div key={item.key} className={styles.promoIcon}>
+                        <Link href={item.link} >
+                          <img src={item.logo}></img>
+                        </Link>
+                      </div>
                     )
                   })}
                 </div>

@@ -108,7 +108,11 @@
 }
 
 .promolinks{
+    display: flex;
+    flex-direction: row;
     margin: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .promoIcon{
@@ -116,6 +120,16 @@
     width: 25px;
     margin: 0 0.6rem;
     cursor: pointer;
+}
+
+
+.promoIcon img{
+    height: 22px;
+    width: 22px;
+    left: 2%;
+    right: 2%;
+    top: 2%;
+    bottom: 2%;
 }
 
 @media only screen and (max-width:1400px){

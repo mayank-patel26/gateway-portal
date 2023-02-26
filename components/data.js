@@ -7,7 +7,7 @@ export const data = [
 ]
 
 export const promoData = [
-    {logo: "/tele.png", key: 1, link: ""},
+    {logo: "/tele.png", key: 1, link: "https://www.instagram.com/djsce.official/"},
     {logo: "/insta.png", key: 2, link: "https://www.instagram.com/djsce.official/"},
     {logo: "/fb.png", key: 3, link: "https://www.facebook.com/djsce.official/"},
     {logo: "linkedIn.png", key: 4, link: "https://in.linkedin.com/school/djsce/"},
