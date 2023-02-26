@@ -4,7 +4,6 @@
     align-items: center;
     background-color: #E5E5E5;
     height: 100vh;
-    padding: 2rem 0;
 }
 
 .main{
@@ -65,11 +64,13 @@
     font-size: x-large;
     color: white;
     margin: 2rem 2rem 0 2rem;
+    font-weight: 600;
 }
 
 .deptTitle{
     text-align: center;
-    font-size: larger;
+    font-size: 20px;
+    font-weight: 400;
     color: white;
     margin: 2rem;
 }
@@ -87,7 +88,7 @@
     font-style: italic;
     color: #777777;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 12px;
     margin: 0.5rem 1rem;
 }
 
@@ -147,6 +148,10 @@
         height: 80vh;
         width: 60%;
         background-color: white;
+    }
+
+    .mainContainer{
+        padding: 2rem 0; 
     }
 
     .right{
